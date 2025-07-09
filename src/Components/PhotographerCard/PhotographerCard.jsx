@@ -7,7 +7,7 @@ export const PhotographerCard = ({ cardData }) => {
         <div className="photographer-card">
             <div className="left-wrapper">
                 <div className="grapher-img-container" >
-                    <img src="https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-women-cartoon-avatar-in-flat-style-png-image_6110776.png" alt="" />
+                    <img src={cardData.profilePic} alt={cardData.name} />
                 </div>
                 <h2>{cardData.name}</h2>
             </div>
