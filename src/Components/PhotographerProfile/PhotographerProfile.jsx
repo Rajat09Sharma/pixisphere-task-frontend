@@ -21,7 +21,7 @@ export const PhotographerProfile = ({ data }) => {
             </div>
             <div className="about">
                 <div className="profile-image-conatiner">
-                    <img src="https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-women-cartoon-avatar-in-flat-style-png-image_6110776.png" alt="" />
+                    <img src={data.profilePic} alt={data.name} />
                 </div>
                 <div className="info">
                     <h2>About Us</h2>
