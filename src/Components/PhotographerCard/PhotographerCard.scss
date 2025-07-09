@@ -1,0 +1,112 @@
+.photographer-card {
+    border: 1px solid #c01986;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 30%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    background-color: #16072a;
+    // background-color: #952eca;
+    color: #fff;
+
+
+    .left-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        width: 40%;
+
+        .grapher-img-container {
+            width: 120px;
+            height: 120px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        h2 {
+            text-align: left;
+        }
+    }
+
+    .right-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 50%;
+        // background-color: #130e23;
+        background-color: #000;
+        position: relative;
+        padding: 12px;
+        box-shadow: 0 4px 8px 0 #952eca, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
+
+        p {
+            width: 100%;
+
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 60%;
+            left: 0;
+            transform: translate(-100%, -50%);
+            width: 0;
+            height: 0;
+            border-top: 12px solid transparent;
+            border-bottom: 12px solid transparent;
+            border-right: 12px solid #c01986;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-bottom: 6px;
+        }
+
+        .btn {
+            background: linear-gradient(90deg, #ff0066, #8e2de2);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            font-size: 14px;
+            border-radius: 50px;
+            border: 1px solid #000;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    }
+
+    @media (max-width:768px) {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+
+        .left-wrapper {
+            align-items: center;
+            width: 100%;
+
+            // .grapher-img-container {
+            //     width: 80px;
+            //     height: 80px;
+            // }
+
+            // h2 {
+            //     font-size: 20px;
+            // }
+        }
+
+        .right-wrapper{
+            width: 80%;
+
+            &::before{
+                display: none;
+            }
+        }
+
+    }
+
+}

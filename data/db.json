@@ -1,0 +1,858 @@
+{
+    "photographers": [
+        {
+            "id": 1,
+            "name": "Ravi Studio",
+            "location": "Bengaluru",
+            "price": 10000,
+            "rating": 4.6,
+            "styles": [
+                "Outdoor",
+                "Studio"
+            ],
+            "tags": [
+                "Candid",
+                "Maternity"
+            ],
+            "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Ananya",
+                    "rating": 5,
+                    "comment": "Truly amazing photos and experience!",
+                    "date": "2024-12-15"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Lens Queen Photography",
+            "location": "Delhi",
+            "price": 15000,
+            "rating": 4.2,
+            "styles": [
+                "Candid",
+                "Indoor"
+            ],
+            "tags": [
+                "Newborn",
+                "Birthday"
+            ],
+            "bio": "Delhi-based candid specialist for kids and birthday parties.",
+            "profilePic": "/images/lensqueen.jpg",
+            "portfolio": [
+                "/images/lens1.jpg",
+                "/images/lens2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Priya",
+                    "rating": 4,
+                    "comment": "Very professional and punctual!",
+                    "date": "2024-10-01"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Click Factory",
+            "location": "Mumbai",
+            "price": 8000,
+            "rating": 4.8,
+            "styles": [
+                "Studio",
+                "Outdoor",
+                "Traditional"
+            ],
+            "tags": [
+                "Wedding",
+                "Pre-wedding"
+            ],
+            "bio": "Capturing timeless wedding stories across India.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Rahul",
+                    "rating": 5,
+                    "comment": "We loved every single moment they captured.",
+                    "date": "2025-01-22"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Moments by Neha",
+            "location": "Bengaluru",
+            "price": 12000,
+            "rating": 4.3,
+            "styles": [
+                "Outdoor",
+                "Candid"
+            ],
+            "tags": [
+                "Maternity",
+                "Couple"
+            ],
+            "bio": "Natural light specialist focusing on emotional storytelling.",
+            "profilePic": "/images/neha.jpg",
+            "portfolio": [
+                "/images/neha1.jpg",
+                "/images/neha2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Sneha",
+                    "rating": 4.5,
+                    "comment": "Captured our maternity journey so beautifully.",
+                    "date": "2024-11-05"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Snapshot Studio",
+            "location": "Hyderabad",
+            "price": 7000,
+            "rating": 3.9,
+            "styles": [
+                "Studio"
+            ],
+            "tags": [
+                "Birthday",
+                "Family"
+            ],
+            "bio": "Affordable indoor shoots with creative themes.",
+            "profilePic": "/images/snapshot.jpg",
+            "portfolio": [
+                "/images/snapshot1.jpg",
+                "/images/snapshot2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Vikram",
+                    "rating": 3.5,
+                    "comment": "Decent service, could improve on punctuality.",
+                    "date": "2024-09-10"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Dream Clicks",
+            "location": "Bengaluru",
+            "price": 1400,
+            "rating": 3.2,
+            "styles": [
+                "Candid"
+            ],
+            "tags": [
+                "Wedding"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 3.2,
+                    "comment": "Affordable and great quality.",
+                    "date": "2024-10-21"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Flash Moments ",
+            "location": "Pune",
+            "price": 10325,
+            "rating": 4.4,
+            "styles": [
+                "Candid",
+                "Indoor"
+            ],
+            "tags": [
+                "Newborn",
+                "Couple"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Aditya",
+                    "rating": 3.1,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-12-09"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Shutter Magic",
+            "location": "Chennai",
+            "price": 14434,
+            "rating": 3.1,
+            "styles": [
+                "Studio"
+            ],
+            "tags": [
+                "Maternity"
+            ],
+            "bio": "Creative team capturing love and laughter.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Tina",
+                    "rating": 4.7,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-05-28"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Photo Vision",
+            "location": "Hyderabad",
+            "price": 13240,
+            "rating": 4.2,
+            "styles": [
+                "Outdoor"
+            ],
+            "tags": [
+                "Pre-wedding"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/lensqueen.jpg",
+            "portfolio": [
+                "/images/lens1.jpg",
+                "/images/lens2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 4.5,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-01-10"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Sood Studio",
+            "location": "Bengaluru",
+            "price": 8867,
+            "rating": 3.4,
+            "styles": [
+                "Indoor",
+                "Candid",
+                "Traditional"
+            ],
+            "tags": [
+                "Birthday",
+                "Newborn"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Divya",
+                    "rating": 4.0,
+                    "comment": "Captured all special moments beautifully.",
+                    "date": "2024-12-17"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Golden Lens",
+            "location": "Bengaluru",
+            "price": 10000,
+            "rating": 3.4,
+            "styles": [
+                "Outdoor"
+            ],
+            "tags": [
+                "Newborn",
+                "Couple"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Tina",
+                    "rating": 4.4,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-03-10"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Photo Hub",
+            "location": "Bengaluru",
+            "price": 9000,
+            "rating": 3.7,
+            "styles": [
+                "Indoor",
+                "Candid",
+                "Outdoor"
+            ],
+            "tags": [
+                "Wedding",
+                "Maternity"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/neha.jpg",
+            "portfolio": [
+                "/images/neha1.jpg",
+                "/images/neha2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Divya",
+                    "rating": 3.3,
+                    "comment": "Loved their editing style and approach.",
+                    "date": "2024-01-20"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Ocean Photo",
+            "location": "Mumbai",
+            "price": 11832,
+            "rating": 4.6,
+            "styles": [
+                "Candid",
+                "Studio"
+            ],
+            "tags": [
+                "Couple"
+            ],
+            "bio": "Known for elegant wedding visuals across the country.",
+            "profilePic": "/images/snapshot.jpg",
+            "portfolio": [
+                "/images/snapshot1.jpg",
+                "/images/snapshot2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 4.3,
+                    "comment": "Loved their editing style and approach.",
+                    "date": "2024-07-20"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Golden Arm",
+            "location": "Bengaluru",
+            "price": 11357,
+            "rating": 3.1,
+            "styles": [
+                "Traditional",
+                "Studio"
+            ],
+            "tags": [
+                "Couple",
+                "Wedding"
+            ],
+            "bio": "Creative team capturing love and laughter.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Raj",
+                    "rating": 3.3,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-06-10"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Magic Over",
+            "location": "Hyderabad",
+            "price": 7673,
+            "rating": 4.4,
+            "styles": [
+                "Studio"
+            ],
+            "tags": [
+                "Newborn"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Tina",
+                    "rating": 4.0,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-02-16"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Perfect Photo",
+            "location": "Delhi",
+            "price": 14824,
+            "rating": 4.2,
+            "styles": [
+                "Indoor",
+                "Studio",
+                "Candid"
+            ],
+            "tags": [
+                "Couple"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/neha.jpg",
+            "portfolio": [
+                "/images/neha1.jpg",
+                "/images/neha2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 3.6,
+                    "comment": "Captured all special moments beautifully.",
+                    "date": "2024-09-05"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Flash Moments",
+            "location": "Mumbai",
+            "price": 14610,
+            "rating": 4.6,
+            "styles": [
+                "Studio",
+                "Outdoor"
+            ],
+            "tags": [
+                "Family"
+            ],
+            "bio": "Known for elegant wedding visuals across the country.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Tina",
+                    "rating": 4.5,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-04-27"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Pixel Frame",
+            "location": "Pune",
+            "price": 5255,
+            "rating": 3.1,
+            "styles": [
+                "Studio",
+                "Traditional",
+                "Outdoor"
+            ],
+            "tags": [
+                "Family",
+                "Maternity"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/snapshot.jpg",
+            "portfolio": [
+                "/images/snapshot1.jpg",
+                "/images/snapshot2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 4.6,
+                    "comment": "Captured all special moments beautifully.",
+                    "date": "2024-06-27"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Dream Clicks",
+            "location": "Hyderabad",
+            "price": 12756,
+            "rating": 4.7,
+            "styles": [
+                "Traditional",
+                "Outdoor"
+            ],
+            "tags": [
+                "Family",
+                "Maternity"
+            ],
+            "bio": "Known for elegant wedding visuals across the country.",
+            "profilePic": "/images/lensqueen.jpg",
+            "portfolio": [
+                "/images/lens1.jpg",
+                "/images/lens2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 3.2,
+                    "comment": "Affordable and great quality.",
+                    "date": "2024-08-21"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Machine Tool",
+            "location": "Chennai",
+            "price": 8561,
+            "rating": 3.5,
+            "styles": [
+                "Traditional",
+                "Indoor",
+                "Studio"
+            ],
+            "tags": [
+                "Newborn",
+                "Family"
+            ],
+            "bio": "Known for elegant wedding visuals across the country.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Karan",
+                    "rating": 3.0,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-08-07"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Right Click",
+            "location": "Delhi",
+            "price": 19683,
+            "rating": 4.5,
+            "styles": [
+                "Traditional",
+                "Studio"
+            ],
+            "tags": [
+                "Couple"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/neha.jpg",
+            "portfolio": [
+                "/images/neha1.jpg",
+                "/images/neha2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Meera",
+                    "rating": 3.3,
+                    "comment": "Loved their editing style and approach.",
+                    "date": "2024-05-08"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Fubu",
+            "location": "Bengaluru",
+            "price": 15905,
+            "rating": 3.5,
+            "styles": [
+                "Outdoor",
+                "Candid"
+            ],
+            "tags": [
+                "Family"
+            ],
+            "bio": "Creative team capturing love and laughter.",
+            "profilePic": "/images/snapshot.jpg",
+            "portfolio": [
+                "/images/snapshot1.jpg",
+                "/images/snapshot2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 3.1,
+                    "comment": "Affordable and great quality.",
+                    "date": "2024-05-01"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Pixel Hub",
+            "location": "Pune",
+            "price": 5515,
+            "rating": 4.6,
+            "styles": [
+                "Traditional"
+            ],
+            "tags": [
+                "Birthday"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Aditya",
+                    "rating": 4.9,
+                    "comment": "Captured all special moments beautifully.",
+                    "date": "2024-06-01"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Lens Photo",
+            "location": "Mumbai",
+            "price": 8582,
+            "rating": 4.0,
+            "styles": [
+                "Outdoor",
+                "Indoor"
+            ],
+            "tags": [
+                "Family",
+                "Birthday"
+            ],
+            "bio": "Specialists in themed indoor photography.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Meera",
+                    "rating": 3.9,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-10-17"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "I Click",
+            "location": "Bengaluru",
+            "price": 13449,
+            "rating": 3.1,
+            "styles": [
+                "Indoor",
+                "Traditional"
+            ],
+            "tags": [
+                "Family",
+                "Pre-wedding"
+            ],
+            "bio": "Specialists in themed indoor photography.",
+            "profilePic": "/images/neha.jpg",
+            "portfolio": [
+                "/images/neha1.jpg",
+                "/images/neha2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Raj",
+                    "rating": 4.4,
+                    "comment": "Captured all special moments beautifully.",
+                    "date": "2024-11-17"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Shu Photo",
+            "location": "Pune",
+            "price": 5724,
+            "rating": 3.8,
+            "styles": [
+                "Candid"
+            ],
+            "tags": [
+                "Birthday"
+            ],
+            "bio": "Known for elegant wedding visuals across the country.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Raj",
+                    "rating": 4.2,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-09-20"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Dream Photo",
+            "location": "Chennai",
+            "price": 18620,
+            "rating": 4.2,
+            "styles": [
+                "Indoor",
+                "Studio"
+            ],
+            "tags": [
+                "Newborn",
+                "Pre-wedding"
+            ],
+            "bio": "Creative team capturing love and laughter.",
+            "profilePic": "/images/lensqueen.jpg",
+            "portfolio": [
+                "/images/lens1.jpg",
+                "/images/lens2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 3.3,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-12-03"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Candid Tales",
+            "location": "Pune",
+            "price": 7708,
+            "rating": 4.7,
+            "styles": [
+                "Studio"
+            ],
+            "tags": [
+                "Birthday"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/snapshot.jpg",
+            "portfolio": [
+                "/images/snapshot1.jpg",
+                "/images/snapshot2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Aditya",
+                    "rating": 4.8,
+                    "comment": "Excellent service and fantastic shots!",
+                    "date": "2024-10-09"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Off Right Click",
+            "location": "Bengaluru",
+            "price": 12642,
+            "rating": 3.5,
+            "styles": [
+                "Candid",
+                "Traditional",
+                "Indoor"
+            ],
+            "tags": [
+                "Wedding"
+            ],
+            "bio": "Experienced with kids, couples, and candid shots.",
+            "profilePic": "/images/clickfactory.jpg",
+            "portfolio": [
+                "/images/wed1.jpg",
+                "/images/wed2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Meera",
+                    "rating": 3.5,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-09-13"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Tales Hub",
+            "location": "Bengaluru",
+            "price": 19276,
+            "rating": 4.9,
+            "styles": [
+                "Candid"
+            ],
+            "tags": [
+                "Maternity",
+                "Pre-wedding"
+            ],
+            "bio": "Top-rated for emotional storytelling and creative composition.",
+            "profilePic": "/images/ravi.jpg",
+            "portfolio": [
+                "/images/portfolio1.jpg",
+                "/images/portfolio2.jpg"
+            ],
+            "reviews": [
+                {
+                    "name": "Simran",
+                    "rating": 5.0,
+                    "comment": "Very professional and friendly.",
+                    "date": "2024-09-23"
+                }
+            ]
+        }
+    ]
+}
