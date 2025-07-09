@@ -34,12 +34,13 @@ export const PhotographerProfile = ({ data }) => {
             <div className="projects">
                 <h2>Projects</h2>
                 <div className="pro-wrapper">
-                    <div className="img-wrapper">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqqcrjLaKQHzFI4YIRFl_ycdSUa0sl1N9mg&s" />
-                    </div>
-                    <div className="img-wrapper">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqStQxRVfSYiONTiyLkdyLOYMCJvGryYNsw&s" />
-                    </div>
+                    {data.portfolio.map((d, index) =>
+                        <div key={index} className="img-wrapper">
+                            <img src={d} alt={data.name} />
+                        </div>
+                    )}
+
+
                 </div>
             </div>
             <Testimonial testimonials={[...data.reviews]} title={"Testimonials"} />
