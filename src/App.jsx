@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { RootLayout } from "./Pages/RootLayout"
 import { CategoryListingPage } from "./Pages/CategoryListingPag"
-import { PhotographerProfile } from "./Components/PhotographerProfile/PhotographerProfile"
 import { ProfilePage } from "./Pages/ProfilePage"
 
 
@@ -25,7 +24,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router}></RouterProvider>
-      {/* <PhotographerProfile /> */}
     </>
   )
 }
