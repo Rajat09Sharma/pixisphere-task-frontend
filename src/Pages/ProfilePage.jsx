@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { PhotographerProfile } from "../Components/PhotographerProfile/PhotographerProfile";
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpiner } from "../Components/LoadingSpiner/LoadingSpiner";
+import { ErrorContainer } from "../Components/ErrorContainer/ErrorContainer";
 
 export const ProfilePage = () => {
     const [data, setData] = useState(null);
@@ -12,9 +13,10 @@ export const ProfilePage = () => {
 
     useEffect(() => {
         setLoading(true);
+        setError(false);
         const fetchPhotographerData = async () => {
             try {
-                const response = await fetch("http://localhost:3001/photographers/" + id);
+                const response = await fetch("http://localhost:3000/photographers/" + id);
                 const result = await response.json();
                 setData(result);
             } catch (error) {
@@ -38,7 +40,7 @@ export const ProfilePage = () => {
     return (
         <>
             {isLoading && <LoadingSpiner />}
-            {error && <p>Error loading photographer details.</p>}
+            {error && <ErrorContainer message={"Error loading photographer details."} />}
             {data && <PhotographerProfile data={data} />}
         </>
     );

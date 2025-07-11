@@ -13,15 +13,16 @@ export const usePhotographersHook = (searchTerm, priceFilter, ratingFilter, loca
 
     // Fetch photographers
     useEffect(() => {
+        setError(false);
         if (page === 0) return;
 
         setLoading(true);
         const fetchPhotographers = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/photographers?_page=${page}`);
+                const response = await axios.get(`http://localhost:3000/photographers?_page=${page}`);
                 const result = response.data.data || response.data;
 
-                const allData = await axios.get(`http://localhost:3001/photographers`);
+                const allData = await axios.get(`http://localhost:3000/photographers`);
                 const alldata = allData.data.data || allData.data;
                 const locations = [...new Set(alldata.map(data => data.location))].sort();
                 setLoaction(locations);

@@ -1,9 +1,11 @@
 import { useRef, useState, useCallback, useEffect } from "react";
 import { debounce } from 'lodash';
 import { PhotographerCard } from "../PhotographerCard/PhotographerCard";
-import "./CategoryListing.scss";
 import { LoadingSpiner } from "../LoadingSpiner/LoadingSpiner";
 import { usePhotographersHook } from "../../hook/usePhotographersHook";
+import { ErrorContainer } from "../ErrorContainer/ErrorContainer";
+
+import "./CategoryListing.scss";
 
 export const CategoryListing = () => {
 
@@ -157,9 +159,9 @@ export const CategoryListing = () => {
                 </div>
 
                 {isLoading && <LoadingSpiner />}
-                {!isLoading && error && <p>Error loading photographers</p>}
-                {!hasMore && !isLoading && <p>No more photographers to show.</p>}
-                {!isLoading && data.length == 0 && <p>No such photographer.</p>}
+                {!isLoading && error && <ErrorContainer message={"Error in loading photographers"}/>}
+                {!hasMore && !isLoading && <p className="info-message">No more photographers to show.</p>}
+                {!isLoading && data.length == 0 && <p className="info-message">No such photographer.</p>}
             </div>
         </div>
 
