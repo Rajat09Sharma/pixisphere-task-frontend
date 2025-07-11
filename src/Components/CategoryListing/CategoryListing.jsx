@@ -18,9 +18,10 @@ export const CategoryListing = () => {
     const [locationFilter, setLocationFilter] = useState("all");
     const [sortOrder, setSortOrder] = useState("none");
 
+    const [showMbFilter, setMbFilter] = useState(false);
+
     const { data, isLoading, error, hasMore, locations } = usePhotographersHook(searchTerm, priceFilter, ratingFilter, locationFilter, sortOrder, page);
 
-    const [showMbFilter, setMbFilter] = useState(false);
 
     const observerRef = useRef();
     const lastCardRef = useCallback(
@@ -40,6 +41,13 @@ export const CategoryListing = () => {
         [isLoading, hasMore]
     );
 
+    const handleClearFilter = () => {
+        setPriceFilter("all");
+        setPriceFilter("all");
+        setLocationFilter("all");
+        setSortOrder("none");
+        setMbFilter(false);
+    }
 
     useEffect(() => {
         const handler = debounce(() => {
@@ -140,6 +148,9 @@ export const CategoryListing = () => {
                             <option value="asc">Low to High</option>
                             <option value="desc">High to Low</option>
                         </select>
+
+                        <button className="filter-btn" onClick={handleClearFilter}>Clear Filter</button>
+
                     </div>
                 </div>
             }
@@ -159,7 +170,7 @@ export const CategoryListing = () => {
                 </div>
 
                 {isLoading && <LoadingSpiner />}
-                {!isLoading && error && <ErrorContainer message={"Error in loading photographers"}/>}
+                {!isLoading && error && <ErrorContainer message={"Error in loading photographers"} />}
                 {!hasMore && !isLoading && <p className="info-message">No more photographers to show.</p>}
                 {!isLoading && data.length == 0 && <p className="info-message">No such photographer.</p>}
             </div>
