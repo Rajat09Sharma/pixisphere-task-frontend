@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 
+const apiUrl = import.meta.env.VITE_API_URL;
+
 export const usePhotographersHook = (searchTerm, priceFilter, ratingFilter, locationFilter, sortOrder, page) => {
     const [data, setData] = useState([]);
     const [filterData, setFilterData] = useState([]);
@@ -19,10 +21,10 @@ export const usePhotographersHook = (searchTerm, priceFilter, ratingFilter, loca
         setLoading(true);
         const fetchPhotographers = async () => {
             try {
-                const response = await axios.get(`http://localhost:3000/photographers?_page=${page}`);
+                const response = await axios.get(`${apiUrl}/photographers?_page=${page}`);
                 const result = response.data.data || response.data;
 
-                const allData = await axios.get(`http://localhost:3000/photographers`);
+                const allData = await axios.get(`${apiUrl}/photographers`);
                 const alldata = allData.data.data || allData.data;
                 const locations = [...new Set(alldata.map(data => data.location))].sort();
                 setLoaction(locations);

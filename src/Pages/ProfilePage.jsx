@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { LoadingSpiner } from "../Components/LoadingSpiner/LoadingSpiner";
 import { ErrorContainer } from "../Components/ErrorContainer/ErrorContainer";
 
+const apiUrl = import.meta.env.VITE_API_URL;
+
 export const ProfilePage = () => {
     const [data, setData] = useState(null);
     const [isLoading, setLoading] = useState(false);
@@ -16,7 +18,7 @@ export const ProfilePage = () => {
         setError(false);
         const fetchPhotographerData = async () => {
             try {
-                const response = await fetch("http://localhost:3000/photographers/" + id);
+                const response = await fetch(`${apiUrl}/photographers/${id}`);
                 const result = await response.json();
                 setData(result);
             } catch (error) {
