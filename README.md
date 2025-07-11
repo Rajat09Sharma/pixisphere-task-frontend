@@ -1,6 +1,8 @@
 # 📸 Pixisphere Frontend
 
-Pixisphere is a React-based frontend application that showcases a list of photographers with advanced filtering, search, and infinite scroll features.
+Pixisphere is a React-based frontend application that showcases a list of photographers, featuring advanced filtering, search, and infinite scroll capabilities.
+
+- 🚀 **Website ScreenShot**: <img width="1920" height="875" alt="Screenshot 2025-07-12 005918" src="https://github.com/user-attachments/assets/238b457c-681e-4161-907a-d7faef8fc471" />
 
 ---
 
